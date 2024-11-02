@@ -1,0 +1,109 @@
+/* main box #05050f */
+/* /*
+/* darker purple #2f2f7e; */
+/* medium purple #6060d8; */
+/* light purple #9797f0; */
+
+:root {
+    color-scheme: dark;
+    font-size: 16px;
+}
+
+html {
+    height: 100%;
+}
+
+/* 03030A */
+body {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-color: #101212;
+    color: #A0A0A0;
+    font-family: monospace;
+    line-height: 1.2;
+}
+
+div#container {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 0px;
+    background-color: #232526;
+    max-width: 900px;
+    margin: 0 auto;
+    overflow-y: auto;
+}
+
+div#controls {
+    display: flex;
+    flex-direction: row;
+    margin: 4px auto;
+    padding: 0px;
+    border: none;
+    overflow: hidden;
+}
+
+.control-button {
+    margin-left: 2px;
+    padding: 0px 8px;
+    cursor: pointer;
+    background-color: #181A1A;
+    border: none;
+}
+
+
+div#sample-grid {
+    display: flex;
+    flex-direction: column;
+    background-color: #121414;
+    width: 100%;
+}
+
+div.sample-row {
+    display: flex;
+    flex-direction: row;
+}
+
+div.sample-button, div.empty-button, div.instrument-button {
+    min-width: 74px;
+    min-height: 74px;
+    cursor: pointer;
+    margin: 4px;
+    padding: 0px;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 74px;
+    border-radius: 2px;
+    word-break: break-all;
+    overflow-wrap: break-word;
+
+}
+div.sample-button {
+    background-color: #124780;
+}
+div.empty-button {
+    background-color: #1C1E1E;
+}
+div.instrument-button {
+    
+}
+
+#ball-box {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-left: 4px;
+    vertical-align: middle;
+}
+
+#ball {
+    background-color: #ff0000;
+    width: 24px;
+    height: 24px;
+    display: block;
+    border-radius: 24px;
+}
+
