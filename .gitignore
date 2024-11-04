@@ -7,13 +7,10 @@ venv/
 testing/*
 
 # Windows 
+# gotta ignore soundfiles cus copyright
 *.lnk
 *.wav
 *.png
-
-# ignore all posts except example
-#src/posts/*
-#!src/posts/000 - Hello, world.md
 
 # C extensions
 *.so
