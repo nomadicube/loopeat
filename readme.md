@@ -2,6 +2,8 @@
 
 soundloops on repeat..
 
+basically re-creating Garagebands loop-masher on the iPad.
+
 https://archive.org/details/all-apple-loops
 
 
