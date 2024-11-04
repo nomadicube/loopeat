@@ -11,6 +11,7 @@ testing/*
 *.lnk
 *.wav
 *.png
+!*.screenshot.png
 
 # C extensions
 *.so
