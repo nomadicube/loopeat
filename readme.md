@@ -1,5 +1,7 @@
 # loopeat
 
+![screenshot](./loopeat/screenshot.png)
+
 soundloops on repeat..
 
 basically re-creating Garagebands loop-masher on the iPad.
