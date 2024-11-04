@@ -38,7 +38,7 @@ function playBtn() {
 
 function stopBtn() {
     clearTimeout(loopTimeout);
-    document.querySelectorAll('audio').forEach(el => el.pause());
+    
 }
 
 var lastTap = 0;
