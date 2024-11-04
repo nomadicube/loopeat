@@ -12,6 +12,7 @@ testing/*
 *.wav
 *.png
 !*/screenshot.png
+scripts/venv*
 
 # C extensions
 *.so
